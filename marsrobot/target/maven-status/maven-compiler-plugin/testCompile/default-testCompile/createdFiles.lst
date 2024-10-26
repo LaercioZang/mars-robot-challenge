@@ -1,0 +1,4 @@
+com\nasa\marsrobot\MarsRobotApplicationTests.class
+com\nasa\marsrobot\controller\RobotControllerIntegrationTest.class
+com\nasa\marsrobot\moviment\RobotMoverTest.class
+com\nasa\marsrobot\service\RobotServiceTest.class

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: marsrobot-deployment
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: marsrobot
+  template:
+    metadata:
+      labels:
+        app: marsrobot
+    spec:
+      containers:
+      - name: marsrobot
+        image: marsrobot:latest  
+        ports:
+        - containerPort: 8080

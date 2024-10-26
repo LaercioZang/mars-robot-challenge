@@ -1,0 +1,10 @@
+com\nasa\marsrobot\controller\RobotController.class
+com\nasa\marsrobot\model\Coordinates.class
+com\nasa\marsrobot\MarsRobotApplication.class
+com\nasa\marsrobot\validators\RobotValidator.class
+com\nasa\marsrobot\model\Direction.class
+com\nasa\marsrobot\model\Robot.class
+com\nasa\marsrobot\exception\GlobalExceptionHandler.class
+com\nasa\marsrobot\moviment\RobotMover.class
+com\nasa\marsrobot\model\Direction$1.class
+com\nasa\marsrobot\service\RobotService.class
